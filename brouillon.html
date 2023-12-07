@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Brouillon</title>
+    <link rel="stylesheet"  href="brouillon.css">
+</head>
+<body>
+    <header class="header">
+        <div class="my-mini-header">  <!--div of my header-->
+
+            <div> <!--div of my nav-->
+                <nav>
+                    <ul class="nav-liste">  <!-- bloc of my liste-->           
+                            <li>Paris Saint Germain</li>
+                            <li>Olympique Lyonnais</li>
+                            <li>Olympique de Marseille</li>
+                            <li>FCG de Bordeaux</li>
+                            <li>LOSC Lille</li> 
+                    </ul>
+                </nav>
+            </div>
+<!---------------------------Début de mon menu burger----------------------------->           
+        </div>
+
+        <div class="menu">
+            <!-- Utilisation d'une checkbox -->
+            <input type="checkbox" id="submenu-toggle" name="submenu-toggle" aria-labelledby="submenu-toggle-label" class="submenu-toggle" />
+            <!-- Label de la checkbox -->
+            <label for="submenu-toggle" class="top-nav-label" id="submenu-toggle-label">
+                <span class="open-close-menu">
+                    <span class="open-menu">Ouvrir le sous-menu</span>
+                    <span class="close-menu">Fermer le sous-menu</span>
+                </span>
+            </label>
+            <!-- Le reste du menu -->
+            <nav>
+              <a href="#">Accueil</a>
+              <a href="#">Information</a>
+              <a href="#">À propos</a>
+              <a href="#">Contact</a>
+            </nav>
+          </div>
+<!---------------------------Fin de mon menu burger-----------------------------> 
+    </header>
+    
+</body>
+</html>
