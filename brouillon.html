@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Brouillon</title>
-    <link rel="stylesheet"  href="brouillon.css">
-</head>
+    <title>Mon menu burger</title>
+    <link rel="stylesheet"  href="Css/style.css">
+
+<!-- end of my head -->
+
 <body>
+    
+<!--------------------------------------start of my header-------------------------------------->
     <header class="header">
         <div class="my-mini-header">  <!--div of my header-->
+            <div> 
+                <img class="logo" src="IMAGES/logo_Disney.png" alt="Disney's website logo">
+            </div>
 
             <div> <!--div of my nav-->
                 <nav>
                     <ul class="nav-liste">  <!-- bloc of my liste-->           
-                            <li>Paris Saint Germain</li>
-                            <li>Olympique Lyonnais</li>
-                            <li>Olympique de Marseille</li>
-                            <li>FCG de Bordeaux</li>
-                            <li>LOSC Lille</li> 
+                            <li>DISNEY+</li>
+                            <li>BOUTIQUE</li>
+                            <li>FILMS</li>
+                            <li>PARC</li>
+                            <li>DISNEY100</li> 
                     </ul>
                 </nav>
             </div>
@@ -26,24 +34,63 @@
 
         <div class="menu">
             <!-- Utilisation d'une checkbox -->
-            <input type="checkbox" id="submenu-toggle" name="submenu-toggle" aria-labelledby="submenu-toggle-label" class="submenu-toggle" />
+            <input type="checkbox" id="hamburger">
             <!-- Label de la checkbox -->
-            <label for="submenu-toggle" class="top-nav-label" id="submenu-toggle-label">
-                <span class="open-close-menu">
-                    <span class="open-menu">Ouvrir le sous-menu</span>
-                    <span class="close-menu">Fermer le sous-menu</span>
-                </span>
-            </label>
+            <label id="hamburger-logo" for="hamburger">MENU ☰</label>
             <!-- Le reste du menu -->
+
             <nav>
-              <a href="#">Accueil</a>
-              <a href="#">Information</a>
-              <a href="#">À propos</a>
-              <a href="#">Contact</a>
+              <a href="#">Paris Saint Germain</a>
+              <a href="#">Olympique Lyonnais</a>
+              <a href="#">Olympique de Marseille</a>
+              <a href="#">LOSC Lille</a>
             </nav>
-          </div>
+        </div>
+       
 <!---------------------------Fin de mon menu burger-----------------------------> 
     </header>
+
+<!-- end of my header -->
+
+    <main>
+        <section><!--Exercice grid touchy-->
+            <div class="containeurGridTouchy">
+                <div class="boite one">Boite 1</div>
+                <div class="boite two">Boite 2</div>
+                <div class="boite three">Boite 3</div>
+                <div class="boite four">Boite 4</div>
+                <div class="boite five">Boite 5</div>
+                <div class="boite six">Boite 6</div>
+                <div class="boite seven">Boite 7</div>
+                <div class="boite height">Boite 8</div>
+            </div>
+            <div class="conteneur">
+                <div class="box une">Élément 1</div>
+                <div class="box deux">Élément 2</div>
+                <div class="box trois">Élément 3</div>
+                <div class="box quatre">Élément 4</div>
+                <div class="box cinq">Élément 5</div>
+                <div class="box six">Élément 6</div>
+                <div class="box sept">Élément 7</div>
+                <div class="box huit">Élément 8</div>
+              </div>
+        </section>
+
+   
+    </main>
+
+<!-- end of my main -->
+
+    <footer>
+        <div class="footer">
+           
+        </div>
+
+    </footer>
+
+<!-- end of my footer -->
     
 </body>
 </html>
+
+    
