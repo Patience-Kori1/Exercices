@@ -1,0 +1,199 @@
+body {
+    width: cover;
+    font-family: Aiglon Pro,Arial,sans-serif;
+    font: 1em sans-serif;
+}
+
+/************************Start of my navigation bar*********************/
+
+.navigation {
+    width:100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #6d6d6d;
+    gap: 152px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+.navigation li {
+    list-style-type: none;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    flex-wrap: wrap;
+}
+.left-header {
+    /* background-color: aqua; */
+    display: flex;
+    width: 894px;
+    gap: 10px;
+}
+.left-header li {
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+.desktop-menu {
+    /* background-color: rgb(171, 159, 103); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 609px;
+    height: 120px;
+    flex-wrap: wrap;
+}
+.logo-Div {
+    display: flex;
+    align-items: center;
+}
+
+.logo-Div img {
+    width: 250px;
+}
+.burger-menu {
+    background-color: bisque;
+    display: none;
+}
+.right-header {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 354px;
+}
+.right-header p {
+    font-size: .75rem;
+    color: #6d6d6d;
+    font-weight: 650;
+}
+.rh-traduction {
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+}
+
+.right-header img {
+    /* width: 15px; */
+    height: 15px;
+}
+
+/************************ End of my navigation bar *********************/
+
+/************************ Start of my header *********************/
+.header-banner-img {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 0 50px 40px 50px;
+}
+.header-banner-text {
+    /* height: 115px;*/
+    width: 580px;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 100px;
+    left: 90px;
+    gap: 10px;
+    /* padding: 10px; */
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.header-banner-text h1 {
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    font-weight: 750;
+    width: 674px;
+    height: 80px;
+}
+.header-banner-text h2 {
+    /* font-size: 2.0rem; */
+    /* line-height: 2.5rem; */
+    /* font-weight: 750; */
+    /* width: 10px;
+    height: 16px; */
+}
+
+/************************ End of my header *********************/
+
+
+/*Start of my main*/
+.main-contenair {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+/*********************** Start of my Section Agenda***********/
+.section-Agenda {
+    display: flex;
+    font-size: 0.85rem;
+    width: 100%;
+    height: 144px;
+    background-color: antiquewhite;
+    padding: 0 50px 100px 50px;
+}
+.agenda-title {
+    width: 100%;
+    /* height: 144px; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 30px;
+    margin: 0px 120px 40px 30px; /*Le 120px est à revoir parce pas bien spécifier par rapport à la logique*/
+    /* background-color: rgb(184, 156, 210); */
+    border-left: 1px solid #6d6d6d;
+}
+.block1-agenda {
+    font-size: 0.85rem;
+    margin-left: 30px;
+    border-right: 1px solid #6d6d6d;
+    width: 300px;
+}
+.block2-agenda {
+    font-size: 0.85rem;
+    border-right: 1px solid #6d6d6d;
+    width: 309.5px;
+}
+.block3-agenda {
+    font-size: 0.85rem;
+    border-right: 1px solid #6d6d6d;
+    margin-right: 30px;
+    width: 300px;
+}
+.block4-agenda {
+    font-size: 0.85rem;
+    margin-right: 30px;
+    /* border-left: 1px solid #6d6d6d; */
+}
+.time-agenda {
+    display: inline-block; /* Pour q'il reste sur la meme ligne que H2*/
+    border: 1px solid #6d6d6d;
+    color: red;
+    font-size: 0.85rem;
+}
+.text-agenda-gras {
+    display: block;
+    font-weight: 700;
+}
+/*Start of my Section Agenda*/
+
+.section-Agenda{
+
+}
+
+/*End of my main*/
+/*Start of my footer*/
+footer {
+    background-color: rgb(37, 32, 57);
+}

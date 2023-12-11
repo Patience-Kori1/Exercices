@@ -1,41 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon projet</title>
+    <title>Bienvenue sur le site de l'Élysée</title>
     <link rel="stylesheet"  href="Css/style.css">
+    <link rel="icon" href="IMAGES/icone1-French-flag.png" type="image/x-icon"> <!-- I added this line of code so that the icon of the French flag can be displayed in the browser tab-->
+    <!-- 1st -->
 </head>
 
 <body>
-<!-------- Start of my header---------------------------------------->
-    <header class="header">
-
-        <div class="my-mini-header">  <!--div of my header-->
-            <div> 
-                <img class="logo" src="IMAGES/logo_Disney.png" alt="Disney's website logo">
+<!-------- Start of my navigation bar---------------------------------------->
+    <nav class="navigation">
+        <div class="left-header">
+            <div class="logo-Div">
+                <a href="index.html">
+                    <img src="IMAGES/élysée-Logo.png" alt="Image du logo de l'Elysée">
+                </a>
             </div>
-
-            <div> <!--div of my nav-->
-                <nav>
-                    <ul class="nav-liste">  <!-- bloc of my liste-->           
-                            <a href="#">Paris Saint Germain</a>
-                            <a href="#">Olympique Lyonnais</a>
-                            <a href="#">Olympique de Marseille</a>
-                            <a href="#">LOSC Lille</a>
-                    </ul>
-                </nav>
+            
+            <div>
+                <ul class="desktop-menu">
+                    <li><a href="index.html">Actualités</a></li>
+                    <li><a href="page-1.html">Agenda</a></li>
+                    <li><a href="page-2.html">Présidence</a></li>
+                    <li><a href="page-3.html">Patrimoine</a> </li>
+                    <li><a href="page-4.html">Écrire au Président</a></li>
+                </ul>
             </div>
+            
+            <div>
+                <ul class="burger-menu">
+                    <li><a href="index.html">Actualités</a></li>
+                    <li><a href="page-1.html">Agenda</a></li>
+                    <li><a href="page-2.html">Présidence</a></li>
+                    <li><a href="page-3.html">Patrimoine</a> </li>
+                    <li><a href="page-4.html">Écrire au Président</a></li>
+                </ul>
+            </div>
+            
+        </div> <!--End of the left Div-->
+        <div class="right-header">
+            <div>
+                <p>Lettre d'information</p>
+            </div>
+            <div class="rh-traduction">
+                <div class="rh-taduction-text">
+                    <p>Fr</p>
+                </div>
+                <div class="rh-traduction-flag">
+                    <img src="IMAGES/icone1-French-flag.png" alt="French Flag Logo">
+                </div>
+            </div>
+            <div>
+                Recherche
+            </div>
+        </div> <!-- End of the right Div-->
+    </nav>
+<!--------------- End of my navigation bar  ----------------------------->
 
-    </header>
-<!--------------- End of my header  ----------------------------->
+<!--------------- Start of my navigation bar  ----------------------------->
+<header>
+    <div class="header-banner">
+        <div class="header-banner-img">
+            <img src="IMAGES/img-header-banner.jpeg" alt="Cop28 picture"/>
+        </div>
+        <div class="header-banner-text">
+            <h1>Déplacement à la COP28 de <br>Dubaï. </h1>
+            <h2> > </h2>
+        </div>
+    </div>
+</header>
+<!--------------- End of my navigation bar  ----------------------------->
 
-<!--------------  start of the main -->
+<!--------------  start of the main ------------------------------------->
 <main>
+    <div class="main-contenair">
+<!--------------  start of section Agenda ------------------------------->
+        <div class="section-Agenda">
+            <div class="agenda-title">
+                <div class="block1-agenda">
+                    <p class="text-agenda-gras"><span>10 décembre 2023<span class="time-agenda">18:30 </span></p>
+                    <p>75ème anniversaire de la Déclaration </p>
+                    <p>universelle des droits de l'Homme.</p>
+                </div>
+                <div class="block2-agenda">
+                    <p class="text-agenda-gras"><span>10 décembre 2023<span class="time-agenda">18:30 </span></p>
+                    <p>75ème anniversaire de la Déclaration </p>
+                    <p>universelle des droits de l'Homme.</p>
+                </div>
+                <div class="block3-agenda">
+                    <div class="rh-traduction">
+                        <div class="rh-taduction-text">
+                            <p>Fr</p>
+                        </div>
+                        <div class="rh-traduction-flag">
+                            <img src="IMAGES/icone1-French-flag.png" alt="French Flag Logo" height="15px">
+                        </div>
+                    </div>
+                    <p>Début des Jeux olympiques dans : <br>
+                       universelle des droits de l'Homme.</p>
+                </div>
+                <div class="block4-agenda">
+                    <p class="text-agenda-gras"><span>10 décembre 2023<span class="time-agenda">18:30 </span></p>
+                    <p>75ème anniversaire de la Déclaration </p>
+                    <p>universelle des droits de l'Homme.</p>
+            </div>
+        </div>
+<!--------------  End of section Agenda ------------------------------->
+
+<!--------------  start of section Map -------------------------------->
+        <div class="section-Map">
+            
+        </div>
+<!--------------  start of section Map ------------------------------->
+    </div>
+    
 
 
 </main>
+<footer>
 
+</footer>
 </body>
 </html>
