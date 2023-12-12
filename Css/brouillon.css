@@ -199,3 +199,10 @@ order:3;
 .rh-traduction-text {
   /* display: flex; */
 }
+
+.block3-agenda {
+  font-size: 0.85rem;
+  border-right: 1px solid #6d6d6d;
+  margin-right: 30px;
+  width: 300px;
+}

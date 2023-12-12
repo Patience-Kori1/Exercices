@@ -117,13 +117,6 @@ body {
     width: 674px;
     height: 80px;
 }
-.header-banner-text h2 {
-    /* font-size: 2.0rem; */
-    /* line-height: 2.5rem; */
-    /* font-weight: 750; */
-    /* width: 10px;
-    height: 16px; */
-}
 
 /************************ End of my header *********************/
 
@@ -171,6 +164,7 @@ body {
     margin-right: 30px;
     width: 300px;
 }
+
 .block4-agenda {
     font-size: 0.85rem;
     margin-right: 30px;
@@ -186,11 +180,21 @@ body {
     display: block;
     font-weight: 700;
 }
+.time-agenda2 {
+    display: inline-block;
+    color: rgb(6, 5, 5);
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: 1px solid #6d6d6d;
+}
+.block4-Agenda-socialNetwork {
+    display: flex;
+    gap:15px;
+}
+
+
 /*Start of my Section Agenda*/
 
-.section-Agenda{
-
-}
 
 /*End of my main*/
 /*Start of my footer*/
