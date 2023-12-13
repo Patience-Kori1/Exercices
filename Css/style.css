@@ -1,7 +1,11 @@
 body {
     width: cover;
+    /* height: 100% !important; */
     font-family: Aiglon Pro,Arial,sans-serif;
     font: 1em sans-serif;
+    margin: 0; /* Pour m'assurer que le contenu de la page commence au bord de la fenêtre du navigateur, sans aucune marge par défaut*/
+    line-height: 1.15rem; /* Pour que l'espacement vertical à l'intérieur des blocs de texte sois le même et conforme au site*/
+    box-sizing: border-box; /* pour pour bien gérer les dimensionnement et positionnement des boites. */
 }
 
 /************************Start of my navigation bar*********************/
@@ -117,24 +121,19 @@ body {
     width: 674px;
     height: 80px;
 }
-
-/************************ End of my header *********************/
-
-
-/*Start of my main*/
+/************************* End of my header *********************/
+/***** Start of my main ******/
 .main-contenair {
-    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
 }
 /*********************** Start of my Section Agenda***********/
 .section-Agenda {
-    display: flex;
     font-size: 0.85rem;
-    width: 100%;
     height: 144px;
-    background-color: antiquewhite;
-    padding: 0 50px 100px 50px;
+    padding: 0 60px 60px 60px;
+    width: 100%; /*Voir si on peut supprimer*/
+    box-sizing: border-box;
 }
 .agenda-title {
     width: 100%;
@@ -175,10 +174,14 @@ body {
     border: 1px solid #6d6d6d;
     color: red;
     font-size: 0.85rem;
+    margin-left: 10px;
 }
 .text-agenda-gras {
     display: block;
     font-weight: 700;
+}
+.text-agenda-mince{
+    line-height: 2px;
 }
 .time-agenda2 {
     display: inline-block;
@@ -186,14 +189,25 @@ body {
     font-size: 0.85rem;
     font-weight: 700;
     border: 1px solid #6d6d6d;
+    margin-right: 10px;
 }
 .block4-Agenda-socialNetwork {
     display: flex;
     gap:15px;
 }
+/*************** End of my Section Agenda***************************/
 
+/***************** Start of my "News" section  ******************* */
+.section-News {
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    width: 100%;
+    height: 439px;
+    /* padding-left: 40px ; */
+}
 
-/*Start of my Section Agenda*/
+/***************** End of my "News" section  ******************* */
 
 
 /*End of my main*/
