@@ -6,7 +6,6 @@ body {
     margin: 0; /* Pour m'assurer que le contenu de la page commence au bord de la fenêtre du navigateur, sans aucune marge par défaut*/
     line-height: 1.15rem; /* Pour que l'espacement vertical à l'intérieur des blocs de texte sois le même et conforme au site*/
     box-sizing: border-box; /* pour pour bien gérer les dimensionnement et positionnement des boites. */
-    background-color: #f3dab1 !important;
 }
 
 /************************Start of my navigation bar*********************/
@@ -94,33 +93,51 @@ body {
 /************************ End of my navigation bar *********************/
 
 /************************ Start of my header *********************/
+.header-banner {
+    margin-bottom: 2.5rem;
+    position: relative;
+    width: 100%;
+    max-width: 92.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 .header-banner-img {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding: 0 50px 40px 50px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
 }
 .header-banner-text {
     /* height: 115px;*/
-    width: 580px;
+    /* width: 580px; */
     border: 1px solid white;
     position: absolute;
-    bottom: 100px;
+    /* bottom: 100px;
     left: 90px;
-    gap: 10px;
+    gap: 10px; */
     /* padding: 10px; */
     background-color: white;
-    border-radius: 5px;
+    border-radius: .3125rem;
     display: flex;
     align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.625rem 1.5625rem 0.625rem 1.875rem;
+    z-index: 2; /*A supprimer*/
+    width: 40rem;
+    height: 7.3rem;
+    line-height: 2.5rem;
+    top: 415px;
+    left: 30px;
+    right: 810px;
+    bottom: 30px;
 }
 .header-banner-text h1 {
-    font-size: 2.0rem;
-    line-height: 2.5rem;
     font-weight: 750;
-    width: 674px;
-    height: 80px;
+    margin-top: 0.9375rem;
+    font-family: Aiglon Pro,Arial,sans-serif;
+    width: 35.9375rem;
+    height: 5rem;
 }
 /************************* End of my header *********************/
 /***** Start of my main ******/
@@ -131,10 +148,11 @@ body {
 /*********************** Start of my Section Agenda***********/
 .section-Agenda {
     font-size: 0.85rem;
-    height: 144px;
-    padding: 0 60px 60px 60px;
-    width: 100%; /*Voir si on peut supprimer*/
+    height: 9.4375rem;
+    padding: 0px 60px 60px 60px;
     box-sizing: border-box;
+    max-width: 92.5rem;
+    width: 100%;
 }
 .agenda-title {
     width: 100%;
@@ -164,7 +182,6 @@ body {
     margin-right: 30px;
     width: 300px;
 }
-
 .block4-agenda {
     font-size: 0.85rem;
     margin-right: 30px;
@@ -211,12 +228,20 @@ body {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     box-sizing: border-box;
+    max-width: 92.5rem;
+    position: relative;
 }
 .history-Blocs {
     display: flex;
     justify-content: space-between;
-    padding: 0 1.25rem 1.875rem 0; /* A revoir focément ! important*/
-    margin: 0 -1.25rem -1.875rem 0; /* A revoir focément ! important*/
+    padding-top: 0px;
+    padding-right: 1.25rem;
+    padding-bottom: 1.875rem;
+    padding-left: 0px;
+    /* margin-top: 0px;
+    margin-right: -1.25rem;
+    margin-bottom: -1.875rem;
+    margin-left:0px; */
 }
 .section-History h2 {
     margin-bottom: .9375rem;
@@ -227,14 +252,23 @@ body {
     text-transform: uppercase;
 }
 .bloc1-History {
-    /* margin-right: 2.5rem; */
-    width: 320px;
-    height: 504px;
+    /* width: 320px;
+    height: 504px; */
+    margin-right: 2.5rem;
+    /* position: relative; */
+}
+.bloc2-History {
+    margin-right: 0;
+}
+.History-img {
+    overflow: hidden;
+    border-radius: .3125rem;
 }
 .history-H3 {
     margin-top: .625rem;
     font-size: 1rem;
     line-height: 1.375rem;
+    margin-bottom: 0rem;
 }
 .history-P {
     color: #767676;
@@ -245,7 +279,92 @@ body {
 }
 
 /***************** End of my "History" section  ******************* */
+/***************** Start of my "Cocorico" section  ******************* */
+.section-Cocorico { 
+  display: block;
+  position: relative;
+  top: 30px;
+  z-index: auto;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: white;
+  max-width: 92.5rem;
+  max-height: 10.9375rem;
+  box-sizing: border-box;
+} 
+.section-Cocorico-prime {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 3.125rem; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: auto;
+    padding-right: auto;
+    background-color: #f2f5fe;
+    position: relative;
+    flex-wrap: wrap;
+    /* padding: 1.25rem 1.25rem 1.875rem .75rem; */
+    border-radius: .625rem;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    box-sizing: border-box;
+    max-width: 80.5rem;
+    height: 12.4rem;
+}
 
+.cocorico-prime-img {
+    position: relative;
+    height: auto;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    box-sizing: border-box;
+    display: flex;/* A supprimer*/
+    flex-shrink: 0; /* A supprimer*/
+    z-index: auto;
+}
+.image-Cocorico {
+    position: absolute;
+    z-index: 1; /*A supprimer*/
+    top: 64px;
+    left: 18px;
+    border-style: none;
+    width: 6.5rem;
+    height: 9.5rem;
+    transform: translateY(-75%);
+    display: block;
+    box-sizing: border-box; /*A supprimer*/
+}
+.decouvrez-Cocorico {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.decouvrez-Cocorico h2 {
+    font-weight: 750; 
+}
+.decouvrez-Cocorico p {
+  /* font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  letter-spacing: 0;
+  margin-bottom: 0;  */
+}
+.Cocorico-prime-right {
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    border: 0 none;
+}
+.image.fleche {
+    margin-right: .625rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+/***************** End of my "Cocorico" section  ******************* */
 
 /*End of my main*/
 /*Start of my footer*/
@@ -268,13 +387,14 @@ footer {
     flex-direction: column;
     /* width: 960px;
     height: 352px; */
-    padding-top: 11.25rem;
+    padding-top: 2.25rem;
     margin-left: auto;
     margin-right: auto;
     /* padding: auto;
     margin: auto; */
-    height: 33.4375rem;
+    /* height: 33.4375rem; */
     padding-bottom: 2.5rem;
+    position:relative
 
 }
 .footer-Section1-img {
@@ -331,4 +451,5 @@ footer a, li {
     margin-right: auto;
     width: 60rem;
 }
+
 /**************End of my footer**********/
