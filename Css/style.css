@@ -1,17 +1,12 @@
 
 body {
-    /* width: cover; */
-    /* height: 100% !important; */
     font-family: Aiglon Pro,Arial,sans-serif;
     font: 1em sans-serif;
-     /* Pour m'assurer que le contenu de la page commence au bord de la fenêtre du navigateur, sans aucune marge par défaut*/
     line-height: 1.15rem; /* Pour que l'espacement vertical à l'intérieur des blocs de texte sois le même et conforme au site*/
-    box-sizing: border-box; /* pour pour bien gérer les dimensionnement et positionnement des boites. */
-    display: block !important;
+    box-sizing: border-box; /* pour pour bien gérer les dimensionnement et positionnement des boites Pour que le texte soit centré sur l'écran */
 }
 /************************Start of my navigation bar*********************/
-
-.navigation {
+.navigation-Desktop {
     width:100%;
     height: 120px;
     display: flex;
@@ -20,14 +15,14 @@ body {
     border-bottom: 1px solid #6d6d6d;
     gap: 152px;
     padding-left: 100px;
-    padding-right: 100px;
-    
+    padding-right: 100px;  
 }
-.navigation a {
+
+.navigation-Desktop a {
     text-decoration: none;
     color: black;
 }
-.navigation li {
+.navigation-Desktop li {
     list-style-type: none;
     font-size: 1.125rem;
     line-height: 1.375rem;
@@ -60,10 +55,7 @@ body {
 .logo-Div img {
     width: 250px;
 }
-.burger-menu {
-    background-color: bisque;
-    display: none;
-}
+
 .right-header {
     background-color: transparent;
     display: flex;
@@ -90,8 +82,60 @@ body {
     /* width: 15px; */
     height: 15px;
 }
-
 /************************ End of my navigation bar *********************/
+/* -------------------- Mobile menu ---------------------------------*/
+.navigation-Mobile {
+    display: none;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+    /* position: fixed;        A revoir bien sur la version mobile*/
+    width: 100%;
+
+}
+.burger-menu {
+    background-color: white; /* A éffacer*/
+}
+#hamburger {
+    display: none;
+}
+#hamburger-logo {
+    cursor:pointer;
+    width: 250px;
+    background-color: white; /*A changer*/
+    display: block;
+    color: black;
+    text-align: left;
+    transform: translateX(-188px) rotate3d(1turn);
+    padding: 30px 30px 30px 40px;
+}
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transform: translateX(-220px);
+    margin-left: 40px;
+}
+#hamburger-logo, .mobile-menu {
+    /* transition: all .4s ease-in-out; */
+    transition: 0.9sec; /*Voir la réaction qu'il fait avec nav ou mobile menu*/
+}
+/* Lorsque #hamburger est coché, le #hamburger-logo et le nav qui sont dans le même parent changent de propriété */
+#hamburger:checked ~ #hamburger-logo,
+#hamburger:checked ~ .mobile-menu {
+  /* Changement de la position pour afficher les menus */
+  transform: translate(0);
+}
+.mobile-menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+}
+.mobile-menu a:hover {
+    /* background-color: #b21d0a; */
+}
+/************************ End of my mobile menu *********************/
 
 /************************ Start of my header *********************/
 .header-banner {

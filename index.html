@@ -9,7 +9,7 @@
      1st -->
 </head><!------------------------------------------------------------- End of head------------------------------------------------->
 <body><!-------------------------------------------------------------- Start of body----------------------------------------------->
-    <nav class="navigation"><!---------------------------------------- Start of my navigation bar---------------------------------->
+    <nav class="navigation-Desktop"><!---------------------------------------- Start of my navigation bar---------------------------------->
         <div class="left-header">
             <div class="logo-Div">
                 <a href="index.html">
@@ -27,18 +27,8 @@
                 </ul>
             </div>
             
-            <div>
-                <ul class="burger-menu">
-                    <li><a href="index.html">Actualités</a></li>
-                    <li><a href="page-1.html">Agenda</a></li>
-                    <li><a href="page-2.html">Présidence</a></li>
-                    <li><a href="page-3.html">Patrimoine</a> </li>
-                    <li><a href="page-4.html">Écrire au Président</a></li>
-                </ul>
-            </div>
-            
-        </div> <!--End of the left Div-->
-        <div class="right-header">
+        </div> <!----------------------------------------------------- End of the left Div-------------------------------------------->
+        <div class="right-header"><!---------------------------------- Start of my right-header bar ------------------------------------->
             <div>
                 <p>Lettre d'information</p>
             </div>
@@ -53,8 +43,30 @@
             <div>
                 Recherche
             </div>
-        </div> <!-- End of the right Div-->
+        </div> <!----------------------------------------------------- End of the right header ------------------------------------>
     </nav><!---------------------------------- ----------------------- End of my navigation bar ----------------------------------->
+    <div class="navigation-Mobile"><!--------------------------------- Start of my burger menu------------------------------------->  
+        <div class="burger-menu">
+            <input type="checkbox" id="hamburger">
+            <label id="hamburger-logo" for="hamburger">MENU ☰</label> 
+            <nav class="mobile-menu">
+                <a href="index.html">Actualités</a>
+                <a href="page-1.html">Agenda</a>
+                <a href="page-2.html">Présidence</a>
+                <a href="page-3.html">Patrimoine</a> 
+                <a href="page-4.html">Écrire au Président</a>
+            </nav>   
+        </div>
+        <div class="logo-Div">
+            <a href="index.html">
+                <img src="IMAGES/élysée-Logo.png" alt="Image du logo de l'Elysée">
+            </a>
+        </div>
+        <div class="recherche">
+            <label for="site-search"></label>
+            <input type="search" id="site-search" placeholder="Rechercher" size="10" maxlength="10"name="q">
+        </div>
+    </div><!---------------------------------------------------------- End of my burger menu--------------------------------------->
 <header><!------------------------------------------------------------ Start of my header bar ------------------------------------->
     <div class="header-banner">
         <div class="header-banner-img">
