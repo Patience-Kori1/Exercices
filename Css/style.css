@@ -9,7 +9,6 @@ body {
     box-sizing: border-box; /* pour pour bien gérer les dimensionnement et positionnement des boites. */
     display: block !important;
 }
-
 /************************Start of my navigation bar*********************/
 
 .navigation {
