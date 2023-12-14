@@ -1,11 +1,13 @@
+
 body {
-    width: cover;
+    /* width: cover; */
     /* height: 100% !important; */
     font-family: Aiglon Pro,Arial,sans-serif;
     font: 1em sans-serif;
-    margin: 0; /* Pour m'assurer que le contenu de la page commence au bord de la fenêtre du navigateur, sans aucune marge par défaut*/
+     /* Pour m'assurer que le contenu de la page commence au bord de la fenêtre du navigateur, sans aucune marge par défaut*/
     line-height: 1.15rem; /* Pour que l'espacement vertical à l'intérieur des blocs de texte sois le même et conforme au site*/
     box-sizing: border-box; /* pour pour bien gérer les dimensionnement et positionnement des boites. */
+    display: block !important;
 }
 
 /************************Start of my navigation bar*********************/
