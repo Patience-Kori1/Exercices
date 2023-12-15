@@ -147,9 +147,11 @@ body {
     margin-right: auto;
 }
 .header-banner-img {
-    /* padding-left: 50px;
-    padding-right: 50px; */
+    transition: transform .2s ease-in-out;
 }
+.header-banner-img:hover {
+    transform: scale(1.03);
+  }
 .header-banner-text {
     /* height: 115px;*/
     /* width: 580px; */
