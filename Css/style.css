@@ -308,8 +308,12 @@ body {
     margin-right: 0;
 }
 .History-img {
-    overflow: hidden;
+    /* overflow: hidden; */
     border-radius: .3125rem;
+    transition: transform .2s ease-in-out;
+}
+.History-img:hover {
+    transform: scale(1.03);
 }
 .history-H3 {
     margin-top: .625rem;
