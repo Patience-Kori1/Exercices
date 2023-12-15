@@ -9,7 +9,8 @@
      1st -->
 </head><!------------------------------------------------------------- End of head------------------------------------------------->
 <body><!-------------------------------------------------------------- Start of body----------------------------------------------->
-    <nav class="navigation-Desktop"><!---------------------------------------- Start of my navigation bar---------------------------------->
+<header><!------------------------------------------------------------ Start of my header ---------------------------------->
+    <nav class="navigation-Desktop"><!-------------------------------- Start of my Desktop navigation---------------------------------->
         <div class="left-header">
             <div class="logo-Div">
                 <a href="index.html">
@@ -20,17 +21,17 @@
             <div>
                 <ul class="desktop-menu">
                     <li><a href="index.html">Actualités</a></li>
-                    <li><a href="page-1.html">Agenda</a></li>
-                    <li><a href="page-2.html">Présidence</a></li>
-                    <li><a href="page-3.html">Patrimoine</a> </li>
-                    <li><a href="page-4.html">Écrire au Président</a></li>
+                    <li><a href="https://www.elysee.fr/agenda#today">Agenda</a></li>
+                    <li><a href="https://www.elysee.fr/emmanuel-macron">Présidence</a></li>
+                    <li><a href="https://www.elysee.fr/exposition/patrimoine">Patrimoine</a> </li>
+                    <li><a href="https://www.elysee.fr/exposition/patrimoine">Écrire au Président</a></li>
                 </ul>
             </div>
             
         </div> <!----------------------------------------------------- End of the left Div-------------------------------------------->
         <div class="right-header"><!---------------------------------- Start of my right-header bar ------------------------------------->
             <div>
-                <p>Lettre d'information</p>
+                <a href="https://www.elysee.fr/lettre-information"><p>Lettre d'information</p></a>
             </div>
             <div class="rh-traduction">
                 <div class="rh-taduction-text">
@@ -40,21 +41,22 @@
                     <img src="IMAGES/icone1-French-flag.png" alt="French Flag Logo">
                 </div>
             </div>
-            <div>
-                Recherche
+            <div class="recherche">
+                <label for="site-search"></label>
+                <input type="search" id="site-search" placeholder="Rechercher" size="10" maxlength="10"name="q">
             </div>
         </div> <!----------------------------------------------------- End of the right header ------------------------------------>
-    </nav><!---------------------------------- ----------------------- End of my navigation bar ----------------------------------->
+    </nav><!---------------------------------- ----------------------- End of my Desktop navigation ----------------------------------->
     <div class="navigation-Mobile"><!--------------------------------- Start of my burger menu------------------------------------->  
         <div class="burger-menu">
             <input type="checkbox" id="hamburger">
             <label id="hamburger-logo" for="hamburger">MENU ☰</label> 
             <nav class="mobile-menu">
-                <a href="index.html">Actualités</a>
-                <a href="page-1.html">Agenda</a>
-                <a href="page-2.html">Présidence</a>
-                <a href="page-3.html">Patrimoine</a> 
-                <a href="page-4.html">Écrire au Président</a>
+                <a href="index.html">Actualités</a></li>
+                <a href="https://www.elysee.fr/agenda#today">Agenda</a>
+                <a href="https://www.elysee.fr/emmanuel-macron">Présidence</a>
+                <a href="https://www.elysee.fr/exposition/patrimoine">Patrimoine</a> 
+                ref="https://www.elysee.fr/exposition/patrimoine">Écrire au Président</a>
             </nav>   
         </div>
         <div class="logo-Div">
@@ -67,17 +69,20 @@
             <input type="search" id="site-search" placeholder="Rechercher" size="10" maxlength="10"name="q">
         </div>
     </div><!---------------------------------------------------------- End of my burger menu--------------------------------------->
-<header><!------------------------------------------------------------ Start of my header bar ------------------------------------->
-    <div class="header-banner">
-        <div class="header-banner-img">
-            <img src="IMAGES/img-header-banner.jpeg" alt="Cop28 picture"/>
+</header><!----------------------------------------------------------- Start of my header ---------------------------------->
+<div class="banner00"><!---------------------------------------------- Start of my banner bar ------------------------------------->
+    <a class="link-banner" href="https://www.elysee.fr/emmanuel-macron/deplacement-a-la-cop28-de-dubai">
+        <div class="header-banner">
+            <div class="header-banner-img">
+                <img src="IMAGES/img-header-banner.jpeg" alt="Cop28 picture"/>
+            </div>
+            <div class="header-banner-text">
+                <h1>Déplacement à la COP28 de Dubaï. </h1>
+                <h2> > </h2>
+            </div>   
         </div>
-        <div class="header-banner-text">
-            <h1>Déplacement à la COP28 de Dubaï. </h1>
-            <h2> > </h2>
-        </div>
-    </div>
-</header> <!---------------------------------------------------------- End of my header bar  -------------------------------------->
+    </a>
+</div> <!------------------------------------------------------------- End of my banner bar  -------------------------------------->
 <main class="main-contenair"><!--------------------------------------- Start of the main ------------------------------------------>
     
     <div class="section-Agenda"> <!----------------------------------- Start of section Agenda ------------------------------------>
@@ -152,6 +157,9 @@
                 <p class="history-P">Découvrez nos produits fabriqués en France et soutenez les projets de restauration de l'Elysée</p>
             </div>
         </div>   
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.0351947935324!2d-0.6143002880019927!3d44.80047137735746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54d8906f0f3ee1%3A0x58982735743609a0!2s9%20Av.%20Pey%20Berland%2C%2033600%20Pessac!5e0!3m2!1sfr!2sfr!4v1702644299371!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div><!---------------------------------------------------------- End of my "History" section ----------------------------------->
     <div class="section-Cocorico"><!---------------------------------- Start of my "Cocorico" section --------------------------------->
         <div class="section-Cocorico-prime">
@@ -209,13 +217,12 @@
             <div>
                 <h3>Liens utiles</h3>
                 <p><a href="#">Accessibilités</a></p>
-                <p><a hrefp#">partiellement</a></p>
+                <p><a href="#">partiellement</a></p>
                 <p><a href="#"> conforme</a></p>
                 <p><a href="#">Dondives</a></p>
                 <p><a href="#">personnelles</a></p>       
             </div>
             <div>
-                <h3></h3>
                 <p><a href="#">Mentions légales</a></p>
                 <p><a href="#">Gestion des</a></p>
                 <p><a href="#">cookies</a></p>

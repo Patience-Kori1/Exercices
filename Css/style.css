@@ -2,8 +2,8 @@
 body {
     font-family: Aiglon Pro,Arial,sans-serif;
     font: 1em sans-serif;
+    box-sizing: border-box;
     line-height: 1.15rem; /* Pour que l'espacement vertical à l'intérieur des blocs de texte sois le même et conforme au site*/
-    box-sizing: border-box; /* pour pour bien gérer les dimensionnement et positionnement des boites Pour que le texte soit centré sur l'écran */
 }
 /************************Start of my navigation bar*********************/
 .navigation-Desktop {
@@ -178,6 +178,10 @@ body {
     left: 30px;
     right: 810px;
     bottom: 30px;
+    color: black;
+}
+.link-banner,.header-banner-text:hover {
+    text-decoration:underline;
 }
 .header-banner-text h1 {
     font-weight: 750;
