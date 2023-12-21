@@ -160,6 +160,20 @@
         <div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.0351947935324!2d-0.6143002880019927!3d44.80047137735746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54d8906f0f3ee1%3A0x58982735743609a0!2s9%20Av.%20Pey%20Berland%2C%2033600%20Pessac!5e0!3m2!1sfr!2sfr!4v1702644299371!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        <script>
+            let myQuestion= prompt('Bonjour, le chef des projets m’a demandé de vous poser quelques questions liées à votre retard de mise en œuvre du projet. \n \n Q1. Quelles sont les principales raisons de votre retard ? \n \n - RP 1 : Raisons personnelles. \n - RP 2 : Raisons professionnelles \n \n');
+            if (myQuestion === 'Raisons personnelles') {
+            myQuestion2A = prompt ("Si tel est le cas, je suis navré mais cela doit avoir  des conséquences. Veuillez choisir entre : \n \n 1. Les conséquences sur le salaire \n 2. Les conséquences sur les jours de congé \n ")
+            } else if  (myQuestion === 'Raisons professionnelles') {
+            myQuestion2B = prompt ("Si tel est cas, je vous propose deux solutions pour le prochain projet. Veuillez choisir entre : \n \n 1. : Augmenter le personnel affilié au projet \n 2. : Augmenter la durée d'exécution du projet en terme de jours \n")
+            } else { prompt("Je suis désolé mais vous devez impérativement choisir parmis les réponses proposées, à savoir : \n \n - RP 1 : Raisons personnelles. \n - RP 2 : Raisons professionnelles \n \n")}        
+            if (myQuestion2A === "Les conséquences sur le salaire") {
+                myQuestion3A = prompt("Comme le stipule votre contrat, dans de tels cas, vous devez passer au remboursement d'une partie de votre salaire. Comment comptez-vous rembourser ? Veuillez choisir entre : \n \n 1. Remboursement de 100$/mois \n 2. Remboursement de 200$/mois \n \n")
+            } else if (myQuestion2A === "Les conséquences sur les jours de congé ") {
+                myQuestion3B = prompt("Comme le stipule votre contrat, dans de tels cas, vous devez renoncer à certains jours de vos congés pour rattraper la charge du travail. Veuillez choisir entre : \n \n 1. Le renoncement des congés d’hiver \n 2. Le renoncement des congés d’été \n \n")
+            }       
+        </script>
+
     </div><!---------------------------------------------------------- End of my "History" section ----------------------------------->
     <div class="section-Cocorico"><!---------------------------------- Start of my "Cocorico" section --------------------------------->
         <div class="section-Cocorico-prime">
